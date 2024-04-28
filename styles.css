@@ -1,0 +1,88 @@
+@font-face {
+    font-family: fontetest;
+    src: url(media/depixel/DePixelHalbfett.otf);
+}
+
+*{
+    margin: 0;
+    margin-left: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Jersey 10', sans-serif;
+}
+
+#grad {
+    background-image: linear-gradient(to bottom, #B4BEC9, #002333 );
+    height: 800px;
+    padding-top: 50px;
+}
+
+.content {
+    height:500px;
+    width: 400px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.content img {
+    height: 200px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    padding-bottom: 60px;
+}
+
+span {
+    font-family: links, sans;
+    font-size: x-large;
+    font-family: 'fontetest', sans-serif;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    top: 40%;
+
+}
+
+.content>a {
+    height: 35px;
+    width: 300px;
+    margin: auto;
+    justify-content: center;
+    border: #DEEFE7 solid 2px;
+    border-radius: 10px;
+    font-size: large;
+    background-color: #DEEFE7;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 2px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+#instagram {
+    background: url(media/icons8-instagram-25.png) center no-repeat;
+    background-color: #DEEFE7;
+}
+
+#linkedin {
+    background: url(media/icons8-linkedin-25.png) center no-repeat;
+    background-color: #DEEFE7;
+}
+
+#Email {
+    background: url(media/icons8-gmail-novo-25.png) center no-repeat;
+    background-color: #DEEFE7;
+}
+
+#Github {
+    background: url(media/icons8-github-25.png) center no-repeat;
+    background-color: #DEEFE7;
+}
+
+a:hover {
+    color: black;
+}
