@@ -12,7 +12,7 @@
     font-family: 'Jersey 10', sans-serif;
 }
 
-#grad {
+body {
     background-image: linear-gradient(to bottom, #B4BEC9, #002333 );
     height: 800px;
     padding-top: 50px;
@@ -22,7 +22,7 @@
     height:500px;
     width: 400px;
     margin: auto;
-    border-radius: 10px;
+    border: solid red 3px;
 }
 
 .content img {
@@ -38,12 +38,12 @@ span {
     font-family: links, sans;
     font-size: x-large;
     font-family: 'fontetest', sans-serif;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
+    left: 50%; 
+    right: 50%; 
+    transform: translate(-50%,-50%); 
     position: absolute;
     top: 40%;
-
+    margin: 0 auto;
 }
 
 .content>a {
@@ -81,8 +81,4 @@ span {
 #Github {
     background: url(media/icons8-github-25.png) center no-repeat;
     background-color: #DEEFE7;
-}
-
-a:hover {
-    color: black;
 }
