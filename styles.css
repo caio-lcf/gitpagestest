@@ -42,7 +42,7 @@ span {
     
 }
 
-.content>a {
+a {
     height: 35px;
     width: 300px;
     margin: auto;
@@ -57,24 +57,63 @@ span {
     margin-bottom: 2px;
     margin-top: 10px;
     text-align: center;
+    transition: transform 0.3s ease;
 }
 
-#instagram {
-    background: url(media/icons8-instagram-25.png) center no-repeat;
-    background-color: #DEEFE7;
+.instagram img {
+    width: 25px;
+    height: 25px;
 }
 
-#linkedin {
-    background: url(media/icons8-linkedin-25.png) center no-repeat;
-    background-color: #DEEFE7;
+.instagram:hover img {
+    transition: 1s;
+    transform: rotate(360deg);
 }
 
-#Email {
-    background: url(media/icons8-gmail-novo-25.png) center no-repeat;
-    background-color: #DEEFE7;
+.instagram:hover {
+    background-color: #B4BEC9;
 }
 
-#Github {
-    background: url(media/icons8-github-25.png) center no-repeat;
-    background-color: #DEEFE7;
+.linkedin img {
+    height: 25px;
+    width: 25px;
 }
+
+.linkedin:hover {
+    background-color: #B4BEC9;
+}
+
+.linkedin:hover img {
+    transition: 1s;
+    transform: rotate(360deg);
+}
+
+.Email img {
+    height: 25px;
+    width: 25px;
+}
+
+.Email:hover img {
+    transition: 1s;
+    transform: rotate(360deg);
+}
+
+.Email:hover {
+    background-color: #B4BEC9;
+}
+
+.Github img {
+    height: 25px;
+    width: 25px;
+  
+}
+
+.Github:hover img {
+    transition: 1s;
+    transform: rotate(369deg);
+}
+
+.Github:hover {
+    background-color: #B4BEC9;
+}
+
