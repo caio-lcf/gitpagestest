@@ -9,20 +9,18 @@
     padding: 0;
     list-style: none;
     text-decoration: none;
-    font-family: 'Jersey 10', sans-serif;
 }
 
 body {
-    background-image: linear-gradient(to bottom, #B4BEC9, #002333 );
-    height: 800px;
+    background: linear-gradient(to bottom, #B4BEC9, #002333 );
+    height: 100%;
     padding-top: 50px;
 }
 
 .content {
-    height:500px;
+    height:900px;
     width: 400px;
     margin: auto;
-    border: solid red 3px;
 }
 
 .content img {
@@ -31,19 +29,17 @@ body {
     display: flex;
     align-items: center;
     margin: auto;
-    padding-bottom: 60px;
 }
 
 span {
     font-family: links, sans;
     font-size: x-large;
     font-family: 'fontetest', sans-serif;
-    left: 50%; 
-    right: 50%; 
-    transform: translate(-50%,-50%); 
-    position: absolute;
-    top: 40%;
-    margin: 0 auto;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 .content>a {
